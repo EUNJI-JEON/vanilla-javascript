@@ -18,7 +18,7 @@ function handleSubmit(event){
 
 function askForName() {
   form.classList.add(SHOWING_CN);
-  form.addEventListener("submit");
+  form.addEventListener("submit")
 
 }
 
@@ -40,8 +40,6 @@ function loadName(){
 }
 
 
-function init() {
-  localName();
-}
+function init() {}
 
 init();
